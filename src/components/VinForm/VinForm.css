@@ -1,0 +1,58 @@
+.vin-form {
+  width: 100%;
+  max-width: 700px;
+}
+
+.vin-form__label {
+  display: block;
+  margin-bottom: 12px;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.vin-form__field {
+  display: flex;
+  gap: 16px;
+}
+
+.vin-form__input {
+  flex: 1;
+
+  padding: 14px 16px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.vin-form__input:focus {
+  outline: none;
+  border-color: #1b1b1b;
+}
+
+.vin-form__button {
+  padding: 14px 24px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #1b1b1b;
+  color: white;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.vin-form__button:hover {
+  background-color: #333;
+}
+
+.vin-form__error {
+  margin-top: 12px;
+
+  color: #d93025;
+}
