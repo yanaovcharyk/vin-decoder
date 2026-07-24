@@ -5,7 +5,7 @@ import { ToastProvider } from "@/common/components/Toast/ToastProvider";
 
 export const App = () => (
   <ToastProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/vin-decoder">
       <AppRouter />
     </BrowserRouter>
   </ToastProvider>
