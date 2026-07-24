@@ -1,0 +1,1 @@
+export { vehicleVariablesApi, type VehicleVariable } from './vehicleVariablesApi';

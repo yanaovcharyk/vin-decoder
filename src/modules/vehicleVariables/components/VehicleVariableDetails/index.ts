@@ -1,0 +1,1 @@
+export { VehicleVariableDetails } from './VehicleVariableDetails';

@@ -1,0 +1,1 @@
+export { VinDecoder } from './VinDecoder';

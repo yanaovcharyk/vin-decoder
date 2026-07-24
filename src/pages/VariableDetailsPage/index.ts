@@ -1,1 +1,0 @@
-export { VariableDetailsPage } from './VariableDetailsPage';

@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom";
-import { MainPage, VariablesPage, VariableDetailsPage } from "./pages";
+import { DecoderPage } from "@/decoder/pages/DecoderPage";
+import { VehicleVariableDetailsPage } from "@/vehicleVariables/pages/VehicleVariableDetailsPage/VehicleVariableDetailsPage";
+import { VehicleVariablesListPage } from "@/vehicleVariables/pages/VehicleVariablesListPage/VehicleVariablesListPage";
 
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
-      <Route path="/variables" element={<VariablesPage />} />
-      <Route path="/variables/:id" element={<VariableDetailsPage />} />
+      <Route path="/" element={< DecoderPage/>} />
+      <Route path="/variables" element={<VehicleVariablesListPage />} />
+      <Route path="/variables/:variableId" element={<VehicleVariableDetailsPage />} />
     </Routes>
   );
 };
